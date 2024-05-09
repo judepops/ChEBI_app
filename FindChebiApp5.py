@@ -117,7 +117,7 @@ def main():
                  " The tool will calculate the vector embedding of the IUPAC name and use a pre-trained BERT LLM model to identify"
                  " the corresponding ChEBI ID through a semantic search powered by a KNN search and l2 normalization.")
         st.markdown('')
-        st.image('/Users/judepops/Documents/PathIntegrate/Code/Processing/semantic_search/semantic_worflow.jpg', caption=None) 
+        st.image('semantic_worflow.jpg', caption=None) 
         st.markdown('')
         st.markdown('**Figure 1: Semantic Search Workflow (left to right)**. This image displays the general workflow algorithm behind this website. It begins with the transformation of ChEBI database metabolites into a BERT vector representation, followed by their indexing in an online database powered by elastic search. This database can be efficiently queried with a metabolite name using semantic searching powered by l2 normalisation of the BERT LLM vectors.')
 
