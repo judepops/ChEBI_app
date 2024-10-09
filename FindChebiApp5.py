@@ -9,8 +9,8 @@ indexName = 'compounds'
 
 # Use environment variables for sensitive data
 es = Elasticsearch(
-    "https://localhost:9200",
-    basic_auth=("elastic", "*nLVGSfCz+3jr1OsIVeA"),
+    "HOST",
+    basic_auth=("elastic", "KEY"),
     ca_certs="/Users/judepops/Documents/PathIntegrate/Code/Processing/semantic_search/elasticsearch-8.13.2/config/certs/http_ca.crt"
 )
 
